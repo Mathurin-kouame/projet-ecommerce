@@ -21,3 +21,13 @@ suivant.addEventListener('click', function(){
     enlActiveImages();
     img_slider[etape].classList.add('active');
 })
+
+$(document).ready(function(){
+    $('#autoWidth').lightSider({
+        autoWidth:true,
+        loop:true,
+        onSliderLop: function(){
+            $('#autoWidth').removeClass('cS-hidden');
+        }
+    });
+});
