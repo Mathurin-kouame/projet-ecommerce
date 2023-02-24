@@ -356,7 +356,7 @@ ul {
 }
 .elm-Ad{
   margin: 0 50px;
-  
+  margin-top: 20px;
 
 }
 
@@ -386,9 +386,9 @@ ul {
   padding: 3px;
   font-size: 2rem;
   color: #fff;
-  margin-top: 64px;
+  margin-top: 50px;
 
 }
 .copyright .bx{
-  margin-top: 64px;
+  margin-top: 50px;
 }
