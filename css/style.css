@@ -51,7 +51,7 @@ ul li a {
   .menu {
     position: fixed;
     top: 0;
-    right: 0;
+    /* right: 0; */
     /* right: -100%; */
     background-color: #d2691e;
     width: 88;
@@ -84,7 +84,7 @@ ul li a {
     padding: 2rem 0;
   }
 
-  .top span i {
+  .clos span i {
     font-size: 3rem;
   }
   .nav-items {
@@ -122,10 +122,6 @@ ul li a {
     right: 1rem;
     font-size: 2rem;
     cursor: pointer;
-  }
-
-  .clos span {
-    font-size: 3rem;
   }
 
   .footer-Text{
@@ -356,15 +352,43 @@ ul {
     height: 200px;
     margin: 0 auto;
     background: #d2691e;
+    color: #fff;
+}
+.elm-Ad{
+  margin: 0 50px;
+  
+
 }
 
 .footer-Text{
     width: 1140px;
     margin: 0 auto;
+
 }
 .elm-text{
     display: flex;
-   
+    justify-content: center;  
+    margin-top: 20px;  
     
-    
+}
+
+.elm-rest-jr{
+    float: right;
+}
+.int-btn input button{
+    width: 50px;
+    height: 50px;
+}
+
+.elem-icons .bx{
+ 
+  float: right;
+  padding: 3px;
+  font-size: 2rem;
+  color: #fff;
+  margin-top: 64px;
+
+}
+.copyright .bx{
+  margin-top: 64px;
 }
